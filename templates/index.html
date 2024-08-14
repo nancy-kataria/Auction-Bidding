@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../static/styles/styles.css" />
+  </head>
+
+  <body>
+    <div class="box1">
+      <h1>Auction Bidding</h1>
+      <h3>Latest Highest Bid : {{ highest_bid }}</h3>
+
+      <h5>Want to be ahead of others? Bid Now !</h5>
+      <form class="form" action="/" , method="post">
+        <div class="input-box">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="input-box">
+          <label for="price">Price:</label>
+          <input type="text" id="price" name="price" />
+        </div>
+        <input class="btn btn-primary" type="submit" value="Add Bid" />
+      </form>
+
+      {% if bid_added %}
+      <h4>Bid added!</h4>
+      {% endif %}
+    </div>
+  </body>
+</html>
