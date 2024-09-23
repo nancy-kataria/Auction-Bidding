@@ -2,11 +2,43 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="../static/styles/styles.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBFLlX55jM-4S6J3MLtRTM5c8C1__H7y8"></script>
+    <script>
+        function initMap() {
+            // Map options
+            var options = {
+                zoom: 4,
+                center: {lat: 39.8283, lng: -98.5795} // Center of the US
+            }
+
+            // New map
+            var map = new google.maps.Map(document.getElementById('map'), options);
+
+            var locations = {{locationRecords | tojson}}
+
+            // Loop through locations and add markers
+            for (var i = 0; i < locations.length; i++) {
+                addMarker(locations[i]);
+            }
+
+            // Add Marker function
+            function addMarker(coords) {
+                var marker = new google.maps.Marker({
+                    position: coords,
+                    map: map
+                });
+            }
+        }
+    </script>
   </head>
 
-  <body>
-    <div class="box1">
-      <h1>Auction Bidding</h1>
+  <body onload="initMap()">
+  <div class="header">
+    <h1>Auction Bidding</h1>
+  </div>
+    <div class="layout">
+      <div class="box1">
+
       <h3>Latest Highest Bid : {{ highest_bid }}</h3>
 
       <h5>Want to be ahead of others? Bid Now !</h5>
@@ -17,7 +49,15 @@
         </div>
         <div class="input-box">
           <label for="price">Price:</label>
-          <input type="text" id="price" name="price" />
+          <input type="number" id="price" name="price" />
+        </div>
+        <div class="input-box">
+          <label for="city">City:</label>
+          <input type="text" id="city" name="city" />
+        </div>
+        <div class="input-box">
+          <label for="state">State:</label>
+          <input type="text" id="state" name="state" />
         </div>
         <input class="btn btn-primary" type="submit" value="Add Bid" />
       </form>
@@ -25,6 +65,8 @@
       {% if bid_added %}
       <h4>Bid added!</h4>
       {% endif %}
+    </div>
+  <div id="map" class="map"></div>
     </div>
   </body>
 </html>
