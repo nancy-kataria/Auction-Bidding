@@ -74,6 +74,13 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Results
+
+<img width="1427" alt="Screenshot 2024-09-24 at 4 39 34 PM" src="https://github.com/user-attachments/assets/c9499b23-a415-49bd-bb7b-4683e33d3961">
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
