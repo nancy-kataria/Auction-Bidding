@@ -32,6 +32,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#demonstration">Demonstration</a></li>
   </ol>
 </details>
 
@@ -80,6 +81,19 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Demonstration
+![Screenshot 2024-09-29 at 11 50 14 PM](https://github.com/user-attachments/assets/27c1b659-5b9a-4273-9af0-0358a73c6769)
+
+Flushing Records into Kafka Topic
+
+![Screenshot 2024-09-29 at 11 50 38 PM](https://github.com/user-attachments/assets/49c5a967-d0e4-4a5b-af4c-db41cb3c634a)
+
+1st Consumer of Kafka topic records
+
+![Screenshot 2024-09-29 at 11 51 03 PM](https://github.com/user-attachments/assets/7a7b3d17-1e39-4694-8d33-00097422eef7)
+
+
+1st Consumer of Kafka topic records
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
