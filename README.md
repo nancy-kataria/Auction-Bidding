@@ -95,6 +95,13 @@ Flushing Records into Kafka Topic
 
 1st Consumer of Kafka topic records
 
+<img width="1100" alt="Screenshot 2024-09-30 at 8 50 03 PM" src="https://github.com/user-attachments/assets/ba217806-bcf1-4076-83c5-d84dde15fcff">
+
+Messages in Kafka Topic
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
