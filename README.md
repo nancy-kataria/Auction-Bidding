@@ -82,22 +82,20 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Demonstration
+
+#### A demonstration on how parallel processing works when 15-20 people bid at the same time.
+
+#### Flushing Records into Kafka Topic:
 ![Screenshot 2024-09-29 at 11 50 14 PM](https://github.com/user-attachments/assets/27c1b659-5b9a-4273-9af0-0358a73c6769)
 
-Flushing Records into Kafka Topic
-
+#### 1st Consumer of Kafka topic records:
 ![Screenshot 2024-09-29 at 11 50 38 PM](https://github.com/user-attachments/assets/49c5a967-d0e4-4a5b-af4c-db41cb3c634a)
 
-1st Consumer of Kafka topic records
-
+#### 1st Consumer of Kafka topic records:
 ![Screenshot 2024-09-29 at 11 51 03 PM](https://github.com/user-attachments/assets/7a7b3d17-1e39-4694-8d33-00097422eef7)
 
-
-1st Consumer of Kafka topic records
-
+#### Messages in Kafka Topic:
 <img width="1100" alt="Screenshot 2024-09-30 at 8 50 03 PM" src="https://github.com/user-attachments/assets/ba217806-bcf1-4076-83c5-d84dde15fcff">
-
-Messages in Kafka Topic
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
