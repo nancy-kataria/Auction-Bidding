@@ -1,7 +1,6 @@
 # Auction-Bidding
 
 <a id="readme-top"></a>
--->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- TABLE OF CONTENTS -->
