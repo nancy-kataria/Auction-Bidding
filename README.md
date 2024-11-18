@@ -43,8 +43,6 @@ There can be Thousands of people bidding at the same time so we will use multipl
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [![Python][Python]][Python-url]
 * [![Flask][Flask]][Flask-url]
 * [![ConfluentKafka][ConfluentKafka]][ConfluentKafka-url]
